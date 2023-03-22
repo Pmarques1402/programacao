@@ -6,17 +6,14 @@ font-size: 1.2rem;
 font-family: arial;
  }
 
-
  .logo{
     width: 200px;
  }
-
 
  a{
     text-decoration: none;
     color: white;
  }
-
 
  .header{
     background-color: black;
@@ -25,6 +22,28 @@ font-family: arial;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    
+}
 
+.menu{
+  display: flex;
+}
+
+.menu li{
+  margin-left: 10px;
+}
+
+.menu li a{
+  display: block;
+  padding: 10px;
+  background-color: #5e173b;
+}
+
+.imagem{
+  width: 400px;
+  height: auto;
+}
+
+body{
+  background-color: rgb(230,230,230);
+}
 
