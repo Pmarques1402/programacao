@@ -1,33 +1,42 @@
 body, ul, li, p{
-margin: 0px;
-padding: 0px;
-list-style: none
-font-size: 1.2rem;
-font-family: arial;
- }
-
- .logo{
-    width: 200px;
- }
-
- a{
-    text-decoration: none;
-    color: white;
- }
-
- .header{
-    background-color: black;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+  margin: 0px;
+  padding: 0px;
+  list-style: none; /* tira a marcação do link (bolinha por exemplo) */
+  font-size: 1.2rem;
+  font-family: arial;
 }
 
+/* Define o tamanho da imagem do logo - largura */
+.logo{
+  width: 300px;
+}
+
+/* Define as caracteristicas do TAG ancor */
+a{
+  text-decoration: none;  /* tira o sublinhado do link */
+  color: rgb(255, 255, 255);         /* Cor do texto */
+}
+
+/* Define as Caracteristicas do header */
+.header{
+  /* Cor de fundo */
+  background-color: royalblue
+  /* display flexivel */
+  display: flex;
+  /* Organizando a linha */
+  flex-wrap: wrap;
+  /* Espeçamento entre os textos */
+  justify-content: space-between;
+  /* centralizado */
+  align-items: center;
+  /* "margen interna" */
+  padding: 20px;
+}
 .menu{
   display: flex;
 }
 
+/* distância entre as as palavras do link */
 .menu li{
   margin-left: 10px;
 }
@@ -35,7 +44,7 @@ font-family: arial;
 .menu li a{
   display: block;
   padding: 10px;
-  background-color: #5e173b;
+  background-color: rgb(0, 0, 0);
 }
 
 .imagem{
@@ -46,4 +55,3 @@ font-family: arial;
 body{
   background-color: rgb(230,230,230);
 }
-
