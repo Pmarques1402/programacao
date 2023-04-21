@@ -17,26 +17,26 @@ a{
   color: rgb(255, 255, 255);         /* Cor do texto */
 }
 
-/* Define as Caracteristicas do header */
+         /* Define as Caracteristicas do header */
 .header{
-  /* Cor de fundo */
-  background-color: rgb(0, 0, 0);
-  /* display flexivel */
+         /* Cor de fundo */
+  background-color: rgb(255, 174, 0);
+         /* display flexivel */
   display: flex;
-  /* Organizando a linha */
+         /* Organizando a linha */
   flex-wrap: wrap;
-  /* Espeçamento entre os textos */
+         /* Espeçamento entre os textos */
   justify-content: space-between;
-  /* centralizado */
+         /* centralizado */
   align-items: center;
-  /* "margen interna" */
+         /* "margen interna" */
   padding: 20px;
 }
 .menu{
   display: flex;
 }
 
-/* distância entre as as palavras do link */
+         /* distância entre as as palavras do link */
 .menu li{
   margin-left: 10px;
 }
@@ -53,12 +53,13 @@ a{
 }
 
 body{
-  background-color: rgb(230, 230, 230);
+  background-color: rgb(230,230,230);
+
 }
 
- /****************** FAZENDO O CORPO DO SITE ******************/
+        /****************** FAZENDO O CORPO DO SITE ******************/
 
- .flex{
+.flex{
   min-height: 100vh;
   background-color: rgb(255, 255, 255);
   display: flex;
@@ -69,7 +70,7 @@ body{
 
           /* Ajustando o tamanho da imagem */
 .imagem{
-  width: 400px;
+  width: 200px;
   height: auto;
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgb(0, 0, 0, 0, 0.767);
@@ -83,7 +84,7 @@ body{
 
      /* Ajustando o texto*/
 .texto{
-  width: 100hv;
+  width: 40hv;
   padding: 10px;
   text-align: justify;
   display: flex;
@@ -95,7 +96,7 @@ body{
 .paragrafo{
   font-family: 'Poppins', sans-serif;
   font-family: 'Raleway', sans-serif;
-  color: rgb(0, 204, 255);
+  color: rgb(2, 4, 4);
 }
 
 .item{
@@ -103,12 +104,12 @@ body{
   margin: 10px;
 }
 
-/* Ajustando o cabeçalho */
+/* Ajustando o rodapé */
 
 .footer{
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(6, 1, 12);
   padding: 15px;
-  color: black;
+  color: rgb(0, 0, 0);
   font-size: 30px;
 }
 
@@ -124,5 +125,3 @@ body{
   width: 30px;
   height:auto;
 }
-
-
